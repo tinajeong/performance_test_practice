@@ -1,0 +1,17 @@
+### 결제 처리
+POST localhost:8080/api/payment
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "amount": 100
+}
+
+
+### 대용량 사용자정보 저장
+PUT localhost:8080/api/payment
+Content-Type: application/json
+
+{
+  "count": 100000
+}
